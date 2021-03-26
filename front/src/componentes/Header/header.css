@@ -1,0 +1,18 @@
+.App-header {
+    background-color: #cc0000;
+    /* min-height: 100vh; */
+    display: flex;
+    height: 30px;
+    align-items: center;
+    color: white;
+  }
+  .App-header > a> p{
+    font-family:sans-serif;
+    margin: 0px 33px;
+    text-decoration: none;
+    color: white;
+  }
+  .App-header > a{
+    
+    text-decoration: none;
+  }

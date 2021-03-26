@@ -1,0 +1,63 @@
+.container{
+    min-height: 600px;
+    /* background-color: rgb(43, 41, 41); */
+}
+
+.cadastro{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    justify-content: center;
+}
+
+.cadastro > form >input{
+    margin: 10px;
+}
+
+.cadastro > form > button{
+    background-color: #cc0000;
+    color: #fff !important;
+    border-radius: 4px;
+    border: 1px solid #cc0000;
+    font-size: 1rem;
+
+}
+.textConsulta{
+    font-size: 21px;
+    margin-bottom: 4%;
+}
+
+.pesquisar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pesquisar > button{
+    background-color: #cc0000;
+    color: #fff !important;
+    border-radius: 4px;
+    border: 1px solid #cc0000;
+    font-size: 1rem;
+    height: 100%;
+    margin-left: 1%;
+}
+
+.cadastro > form{
+    display: contents;
+}
+
+.dadosConsulta{
+    box-shadow: 0px 2px 8px -2px rgb(34 34 34 / 40%);
+    border: 1px solid #767676;
+    width: 483px;
+    height: auto;
+    margin: 28px;
+    display: flex;
+    justify-content: center;
+}
+.dadosConsulta > ul > p{
+    color:black;
+}
